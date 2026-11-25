@@ -1,0 +1,4467 @@
+{
+  "query1_route": {
+    "strict": {
+      "max_jump_ly": 6.0,
+      "route": null,
+      "reachable_from_sun": {
+        "reachable": 5,
+        "farthest_from_sun_ly": 9.686192104934602,
+        "stars": [
+          "Proxima Centauri",
+          "Rigil Kentaurus",
+          "Toliman",
+          "Barnard's Star",
+          "Ross 154"
+        ]
+      },
+      "seconds": 0.0
+    },
+    "relaxed": {
+      "bottleneck_ly": 8.211,
+      "max_jump_ly": 8.5,
+      "least_distance": {
+        "jumps": 19,
+        "total_ly": 124.43,
+        "hops": [
+          {
+            "jump": 1,
+            "from_star": "Sun",
+            "to_star": "Barnard's Star",
+            "ly": 5.945,
+            "to_dist_from_sun_ly": 5.95,
+            "to_spectral_type": "sdM4",
+            "to_constellation": "Ophiuchus"
+          },
+          {
+            "jump": 2,
+            "from_star": "Barnard's Star",
+            "to_star": "Ross 154",
+            "ly": 5.538,
+            "to_dist_from_sun_ly": 9.69,
+            "to_spectral_type": "M3.5Ve",
+            "to_constellation": "Sagittarius"
+          },
+          {
+            "jump": 3,
+            "from_star": "Ross 154",
+            "to_star": "Lacaille 8760",
+            "ly": 7.36,
+            "to_dist_from_sun_ly": 12.87,
+            "to_spectral_type": "M1/M2V",
+            "to_constellation": "Microscopium"
+          },
+          {
+            "jump": 4,
+            "from_star": "Lacaille 8760",
+            "to_star": "GJ 876",
+            "ly": 8.204,
+            "to_dist_from_sun_ly": 15.29,
+            "to_spectral_type": "M5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 5,
+            "from_star": "GJ 876",
+            "to_star": "HIP 117473",
+            "ly": 7.733,
+            "to_dist_from_sun_ly": 19.5,
+            "to_spectral_type": "M2V",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 6,
+            "from_star": "HIP 117473",
+            "to_star": "GJ 1286",
+            "ly": 4.607,
+            "to_dist_from_sun_ly": 23.53,
+            "to_spectral_type": "M5",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 7,
+            "from_star": "GJ 1286",
+            "to_star": "GJ 1276",
+            "ly": 5.56,
+            "to_dist_from_sun_ly": 26.26,
+            "to_spectral_type": "DZ9+",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 8,
+            "from_star": "GJ 1276",
+            "to_star": "GJ 849",
+            "ly": 6.427,
+            "to_dist_from_sun_ly": 29.67,
+            "to_spectral_type": "M3",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 9,
+            "from_star": "GJ 849",
+            "to_star": "HIP 108782",
+            "ly": 5.111,
+            "to_dist_from_sun_ly": 33.41,
+            "to_spectral_type": "M0",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 10,
+            "from_star": "HIP 108782",
+            "to_star": "GJ 1263",
+            "ly": 6.991,
+            "to_dist_from_sun_ly": 39.87,
+            "to_spectral_type": "M3.5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 11,
+            "from_star": "GJ 1263",
+            "to_star": "GJ 4239",
+            "ly": 4.25,
+            "to_dist_from_sun_ly": 43.49,
+            "to_spectral_type": "dM5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 12,
+            "from_star": "GJ 4239",
+            "to_star": "GJ 4216",
+            "ly": 7.128,
+            "to_dist_from_sun_ly": 49.42,
+            "to_spectral_type": "M3.5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 13,
+            "from_star": "GJ 4216",
+            "to_star": "GJ 4262",
+            "ly": 6.852,
+            "to_dist_from_sun_ly": 51.77,
+            "to_spectral_type": "k-m",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 14,
+            "from_star": "GJ 4262",
+            "to_star": "HIP 111571",
+            "ly": 7.292,
+            "to_dist_from_sun_ly": 55.83,
+            "to_spectral_type": "K5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 15,
+            "from_star": "HIP 111571",
+            "to_star": "HIP 113718",
+            "ly": 6.891,
+            "to_dist_from_sun_ly": 55.56,
+            "to_spectral_type": "K4V",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 16,
+            "from_star": "HIP 113718",
+            "to_star": "HIP 114233",
+            "ly": 7.869,
+            "to_dist_from_sun_ly": 51.72,
+            "to_spectral_type": "M1V:",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 17,
+            "from_star": "HIP 114233",
+            "to_star": "Gl 895.2",
+            "ly": 8.266,
+            "to_dist_from_sun_ly": 44.86,
+            "to_spectral_type": "DAV4",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 18,
+            "from_star": "Gl 895.2",
+            "to_star": "HIP 116317",
+            "ly": 4.194,
+            "to_dist_from_sun_ly": 45.59,
+            "to_spectral_type": "M3",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 19,
+            "from_star": "HIP 116317",
+            "to_star": "TRAPPIST-1",
+            "ly": 8.211,
+            "to_dist_from_sun_ly": 40.54,
+            "to_spectral_type": "M8.0 V",
+            "to_constellation": "Aquarius"
+          }
+        ]
+      },
+      "fewest_jumps": {
+        "jumps": 19,
+        "total_ly": 125.4,
+        "hops": [
+          {
+            "jump": 1,
+            "from_star": "Sun",
+            "to_star": "Proxima Centauri",
+            "ly": 4.226,
+            "to_dist_from_sun_ly": 4.23,
+            "to_spectral_type": "M5Ve",
+            "to_constellation": "Centaurus"
+          },
+          {
+            "jump": 2,
+            "from_star": "Proxima Centauri",
+            "to_star": "Ross 154",
+            "ly": 8.232,
+            "to_dist_from_sun_ly": 9.69,
+            "to_spectral_type": "M3.5Ve",
+            "to_constellation": "Sagittarius"
+          },
+          {
+            "jump": 3,
+            "from_star": "Ross 154",
+            "to_star": "Lacaille 8760",
+            "ly": 7.36,
+            "to_dist_from_sun_ly": 12.87,
+            "to_spectral_type": "M1/M2V",
+            "to_constellation": "Microscopium"
+          },
+          {
+            "jump": 4,
+            "from_star": "Lacaille 8760",
+            "to_star": "GJ 876",
+            "ly": 8.204,
+            "to_dist_from_sun_ly": 15.29,
+            "to_spectral_type": "M5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 5,
+            "from_star": "GJ 876",
+            "to_star": "HIP 117473",
+            "ly": 7.733,
+            "to_dist_from_sun_ly": 19.5,
+            "to_spectral_type": "M2V",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 6,
+            "from_star": "HIP 117473",
+            "to_star": "GJ 1286",
+            "ly": 4.607,
+            "to_dist_from_sun_ly": 23.53,
+            "to_spectral_type": "M5",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 7,
+            "from_star": "GJ 1286",
+            "to_star": "GJ 1276",
+            "ly": 5.56,
+            "to_dist_from_sun_ly": 26.26,
+            "to_spectral_type": "DZ9+",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 8,
+            "from_star": "GJ 1276",
+            "to_star": "GJ 849",
+            "ly": 6.427,
+            "to_dist_from_sun_ly": 29.67,
+            "to_spectral_type": "M3",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 9,
+            "from_star": "GJ 849",
+            "to_star": "HIP 108782",
+            "ly": 5.111,
+            "to_dist_from_sun_ly": 33.41,
+            "to_spectral_type": "M0",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 10,
+            "from_star": "HIP 108782",
+            "to_star": "GJ 1263",
+            "ly": 6.991,
+            "to_dist_from_sun_ly": 39.87,
+            "to_spectral_type": "M3.5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 11,
+            "from_star": "GJ 1263",
+            "to_star": "GJ 4239",
+            "ly": 4.25,
+            "to_dist_from_sun_ly": 43.49,
+            "to_spectral_type": "dM5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 12,
+            "from_star": "GJ 4239",
+            "to_star": "GJ 4216",
+            "ly": 7.128,
+            "to_dist_from_sun_ly": 49.42,
+            "to_spectral_type": "M3.5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 13,
+            "from_star": "GJ 4216",
+            "to_star": "GJ 4262",
+            "ly": 6.852,
+            "to_dist_from_sun_ly": 51.77,
+            "to_spectral_type": "k-m",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 14,
+            "from_star": "GJ 4262",
+            "to_star": "HIP 111571",
+            "ly": 7.292,
+            "to_dist_from_sun_ly": 55.83,
+            "to_spectral_type": "K5",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 15,
+            "from_star": "HIP 111571",
+            "to_star": "HIP 113718",
+            "ly": 6.891,
+            "to_dist_from_sun_ly": 55.56,
+            "to_spectral_type": "K4V",
+            "to_constellation": "Aquarius"
+          },
+          {
+            "jump": 16,
+            "from_star": "HIP 113718",
+            "to_star": "HIP 114233",
+            "ly": 7.869,
+            "to_dist_from_sun_ly": 51.72,
+            "to_spectral_type": "M1V:",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 17,
+            "from_star": "HIP 114233",
+            "to_star": "Gl 895.2",
+            "ly": 8.266,
+            "to_dist_from_sun_ly": 44.86,
+            "to_spectral_type": "DAV4",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 18,
+            "from_star": "Gl 895.2",
+            "to_star": "HIP 116317",
+            "ly": 4.194,
+            "to_dist_from_sun_ly": 45.59,
+            "to_spectral_type": "M3",
+            "to_constellation": "Pisces"
+          },
+          {
+            "jump": 19,
+            "from_star": "HIP 116317",
+            "to_star": "TRAPPIST-1",
+            "ly": 8.211,
+            "to_dist_from_sun_ly": 40.54,
+            "to_spectral_type": "M8.0 V",
+            "to_constellation": "Aquarius"
+          }
+        ]
+      }
+    }
+  },
+  "query2_earthlike": {
+    "earth_features": [
+      0.088195,
+      0.095262,
+      0.53436,
+      0.09427,
+      0.416004
+    ],
+    "feature_order": [
+      "radius_earth",
+      "mass_earth",
+      "period_days",
+      "eq_temp_k",
+      "insolation"
+    ],
+    "similarity": "vector.similarity.euclidean = 1/(1+d^2)",
+    "index_agrees": true,
+    "rows": [
+      {
+        "planet": "tau Cet h",
+        "host_star": "tau Cet",
+        "host_mag": 3.49,
+        "host_dist_ly": 11.9,
+        "constellation": "Cetus",
+        "similarity": 0.9391,
+        "radius_earth": 1.19,
+        "mass_earth": 1.83,
+        "period_days": 49.41,
+        "eq_temp_k": 473.22,
+        "insolation": 8.3829,
+        "imputed": null
+      },
+      {
+        "planet": "tau Cet f",
+        "host_star": "tau Cet",
+        "host_mag": 3.49,
+        "host_dist_ly": 11.9,
+        "constellation": "Cetus",
+        "similarity": 0.9383,
+        "radius_earth": 1.81,
+        "mass_earth": 3.93,
+        "period_days": 636.13,
+        "eq_temp_k": 201.97,
+        "insolation": 0.2782,
+        "imputed": null
+      },
+      {
+        "planet": "HD 20794 e",
+        "host_star": "82 G. Eri",
+        "host_mag": 4.26,
+        "host_dist_ly": 19.7,
+        "constellation": "Eridanus",
+        "similarity": 0.9202,
+        "radius_earth": 2.03,
+        "mass_earth": 4.77,
+        "period_days": 147.02,
+        "eq_temp_k": 352.04,
+        "insolation": 2.6513,
+        "imputed": null
+      },
+      {
+        "planet": "HD 20794 d",
+        "host_star": "82 G. Eri",
+        "host_mag": 4.26,
+        "host_dist_ly": 19.7,
+        "constellation": "Eridanus",
+        "similarity": 0.9044,
+        "radius_earth": 2.04,
+        "mass_earth": 4.8,
+        "period_days": 89.68,
+        "eq_temp_k": 388.0,
+        "insolation": 5.2273,
+        "imputed": null
+      },
+      {
+        "planet": "HD 20794 f",
+        "host_star": "82 G. Eri",
+        "host_mag": 4.26,
+        "host_dist_ly": 19.7,
+        "constellation": "Eridanus",
+        "similarity": 0.903,
+        "radius_earth": 2.28,
+        "mass_earth": 5.82,
+        "period_days": 647.6,
+        "eq_temp_k": 214.52,
+        "insolation": 0.3746,
+        "imputed": null
+      },
+      {
+        "planet": "HD 219134 f",
+        "host_star": "HD 219134",
+        "host_mag": 5.57,
+        "host_dist_ly": 21.4,
+        "constellation": "Cassiopeia",
+        "similarity": 0.8736,
+        "radius_earth": 1.262,
+        "mass_earth": 7.3,
+        "period_days": 22.717,
+        "eq_temp_k": 522.6,
+        "insolation": 12.38,
+        "imputed": null
+      },
+      {
+        "planet": "HD 219134 d",
+        "host_star": "HD 219134",
+        "host_mag": 5.57,
+        "host_dist_ly": 21.4,
+        "constellation": "Cassiopeia",
+        "similarity": 0.8724,
+        "radius_earth": 1.554,
+        "mass_earth": 16.17,
+        "period_days": 46.859,
+        "eq_temp_k": 410.5,
+        "insolation": 4.72,
+        "imputed": null
+      },
+      {
+        "planet": "tau Cet g",
+        "host_star": "tau Cet",
+        "host_mag": 3.49,
+        "host_dist_ly": 11.9,
+        "constellation": "Cetus",
+        "similarity": 0.8724,
+        "radius_earth": 1.18,
+        "mass_earth": 1.75,
+        "period_days": 20.0,
+        "eq_temp_k": 639.65,
+        "insolation": 27.9835,
+        "imputed": null
+      },
+      {
+        "planet": "HD 136352 d",
+        "host_star": "HD 136352",
+        "host_mag": 5.65,
+        "host_dist_ly": 48.3,
+        "constellation": "Lupus",
+        "similarity": 0.8566,
+        "radius_earth": 2.562,
+        "mass_earth": 8.82,
+        "period_days": 107.245,
+        "eq_temp_k": 431.0,
+        "insolation": 5.74,
+        "imputed": null
+      },
+      {
+        "planet": "HD 20794 b",
+        "host_star": "82 G. Eri",
+        "host_mag": 4.26,
+        "host_dist_ly": 19.7,
+        "constellation": "Eridanus",
+        "similarity": 0.8432,
+        "radius_earth": 1.45,
+        "mass_earth": 2.7,
+        "period_days": 18.314,
+        "eq_temp_k": 660.0,
+        "insolation": 43.4733,
+        "imputed": null
+      }
+    ]
+  },
+  "query3_counts": {
+    "by_constellation": [
+      {
+        "abbr": "Cyg",
+        "constellation": "Cygnus",
+        "planets": 1683
+      },
+      {
+        "abbr": "Lyr",
+        "constellation": "Lyra",
+        "planets": 1062
+      },
+      {
+        "abbr": "Dra",
+        "constellation": "Draco",
+        "planets": 319
+      },
+      {
+        "abbr": "Sgr",
+        "constellation": "Sagittarius",
+        "planets": 239
+      },
+      {
+        "abbr": "Vir",
+        "constellation": "Virgo",
+        "planets": 201
+      },
+      {
+        "abbr": "Cnc",
+        "constellation": "Cancer",
+        "planets": 144
+      },
+      {
+        "abbr": "Aqr",
+        "constellation": "Aquarius",
+        "planets": 133
+      },
+      {
+        "abbr": "Sco",
+        "constellation": "Scorpius",
+        "planets": 117
+      },
+      {
+        "abbr": "Tau",
+        "constellation": "Taurus",
+        "planets": 103
+      },
+      {
+        "abbr": "Cet",
+        "constellation": "Cetus",
+        "planets": 100
+      },
+      {
+        "abbr": "Psc",
+        "constellation": "Pisces",
+        "planets": 96
+      },
+      {
+        "abbr": "Leo",
+        "constellation": "Leo",
+        "planets": 95
+      },
+      {
+        "abbr": "UMa",
+        "constellation": "Ursa Major",
+        "planets": 91
+      },
+      {
+        "abbr": "Eri",
+        "constellation": "Eridanus",
+        "planets": 90
+      },
+      {
+        "abbr": "Oph",
+        "constellation": "Ophiuchus",
+        "planets": 89
+      },
+      {
+        "abbr": "Hya",
+        "constellation": "Hydra",
+        "planets": 87
+      },
+      {
+        "abbr": "Cen",
+        "constellation": "Centaurus",
+        "planets": 84
+      },
+      {
+        "abbr": "Her",
+        "constellation": "Hercules",
+        "planets": 74
+      },
+      {
+        "abbr": "Cas",
+        "constellation": "Cassiopeia",
+        "planets": 49
+      },
+      {
+        "abbr": "Peg",
+        "constellation": "Pegasus",
+        "planets": 48
+      },
+      {
+        "abbr": "And",
+        "constellation": "Andromeda",
+        "planets": 46
+      },
+      {
+        "abbr": "Car",
+        "constellation": "Carina",
+        "planets": 46
+      },
+      {
+        "abbr": "Cep",
+        "constellation": "Cepheus",
+        "planets": 46
+      },
+      {
+        "abbr": "Pup",
+        "constellation": "Puppis",
+        "planets": 46
+      },
+      {
+        "abbr": "Lib",
+        "constellation": "Libra",
+        "planets": 44
+      },
+      {
+        "abbr": "Boo",
+        "constellation": "Bo\u00f6tes",
+        "planets": 41
+      },
+      {
+        "abbr": "Ori",
+        "constellation": "Orion",
+        "planets": 41
+      },
+      {
+        "abbr": "Cam",
+        "constellation": "Camelopardalis",
+        "planets": 40
+      },
+      {
+        "abbr": "Hyi",
+        "constellation": "Hydrus",
+        "planets": 39
+      },
+      {
+        "abbr": "Sex",
+        "constellation": "Sextans",
+        "planets": 39
+      },
+      {
+        "abbr": "Vel",
+        "constellation": "Vela",
+        "planets": 39
+      },
+      {
+        "abbr": "Mon",
+        "constellation": "Monoceros",
+        "planets": 38
+      },
+      {
+        "abbr": "Pic",
+        "constellation": "Pictor",
+        "planets": 38
+      },
+      {
+        "abbr": "Vol",
+        "constellation": "Volans",
+        "planets": 36
+      },
+      {
+        "abbr": "Lep",
+        "constellation": "Lepus",
+        "planets": 35
+      },
+      {
+        "abbr": "For",
+        "constellation": "Fornax",
+        "planets": 34
+      },
+      {
+        "abbr": "Gem",
+        "constellation": "Gemini",
+        "planets": 34
+      },
+      {
+        "abbr": "Phe",
+        "constellation": "Phoenix",
+        "planets": 34
+      },
+      {
+        "abbr": "CMa",
+        "constellation": "Canis Major",
+        "planets": 33
+      },
+      {
+        "abbr": "Aql",
+        "constellation": "Aquila",
+        "planets": 30
+      },
+      {
+        "abbr": "Ari",
+        "constellation": "Aries",
+        "planets": 29
+      },
+      {
+        "abbr": "Per",
+        "constellation": "Perseus",
+        "planets": 29
+      },
+      {
+        "abbr": "Ret",
+        "constellation": "Reticulum",
+        "planets": 29
+      },
+      {
+        "abbr": "UMi",
+        "constellation": "Ursa Minor",
+        "planets": 29
+      },
+      {
+        "abbr": "Com",
+        "constellation": "Coma Berenices",
+        "planets": 27
+      },
+      {
+        "abbr": "Scl",
+        "constellation": "Sculptor",
+        "planets": 27
+      },
+      {
+        "abbr": "Pav",
+        "constellation": "Pavo",
+        "planets": 26
+      },
+      {
+        "abbr": "Ser",
+        "constellation": "Serpens",
+        "planets": 26
+      },
+      {
+        "abbr": "Tuc",
+        "constellation": "Tucana",
+        "planets": 25
+      },
+      {
+        "abbr": "Cap",
+        "constellation": "Capricornus",
+        "planets": 24
+      },
+      {
+        "abbr": "Dor",
+        "constellation": "Dorado",
+        "planets": 24
+      },
+      {
+        "abbr": "Men",
+        "constellation": "Mensa",
+        "planets": 24
+      },
+      {
+        "abbr": "Lup",
+        "constellation": "Lupus",
+        "planets": 23
+      },
+      {
+        "abbr": "Oct",
+        "constellation": "Octans",
+        "planets": 23
+      },
+      {
+        "abbr": "Lyn",
+        "constellation": "Lynx",
+        "planets": 22
+      },
+      {
+        "abbr": "Crt",
+        "constellation": "Crater",
+        "planets": 21
+      },
+      {
+        "abbr": "LMi",
+        "constellation": "Leo Minor",
+        "planets": 21
+      },
+      {
+        "abbr": "Aur",
+        "constellation": "Auriga",
+        "planets": 20
+      },
+      {
+        "abbr": "Tel",
+        "constellation": "Telescopium",
+        "planets": 20
+      },
+      {
+        "abbr": "Ara",
+        "constellation": "Ara",
+        "planets": 19
+      },
+      {
+        "abbr": "CVn",
+        "constellation": "Canes Venatici",
+        "planets": 19
+      },
+      {
+        "abbr": "Hor",
+        "constellation": "Horologium",
+        "planets": 19
+      },
+      {
+        "abbr": "Col",
+        "constellation": "Columba",
+        "planets": 16
+      },
+      {
+        "abbr": "Gru",
+        "constellation": "Grus",
+        "planets": 16
+      },
+      {
+        "abbr": "Mic",
+        "constellation": "Microscopium",
+        "planets": 16
+      },
+      {
+        "abbr": "Vul",
+        "constellation": "Vulpecula",
+        "planets": 15
+      },
+      {
+        "abbr": "Cae",
+        "constellation": "Caelum",
+        "planets": 14
+      },
+      {
+        "abbr": "CrB",
+        "constellation": "Corona Borealis",
+        "planets": 14
+      },
+      {
+        "abbr": "Aps",
+        "constellation": "Apus",
+        "planets": 13
+      },
+      {
+        "abbr": "CMi",
+        "constellation": "Canis Minor",
+        "planets": 13
+      },
+      {
+        "abbr": "Cha",
+        "constellation": "Chamaeleon",
+        "planets": 12
+      },
+      {
+        "abbr": "Mus",
+        "constellation": "Musca",
+        "planets": 12
+      },
+      {
+        "abbr": "Ind",
+        "constellation": "Indus",
+        "planets": 11
+      },
+      {
+        "abbr": "Lac",
+        "constellation": "Lacerta",
+        "planets": 11
+      },
+      {
+        "abbr": "PsA",
+        "constellation": "Piscis Austrinus",
+        "planets": 11
+      },
+      {
+        "abbr": "Ant",
+        "constellation": "Antlia",
+        "planets": 10
+      },
+      {
+        "abbr": "Crv",
+        "constellation": "Corvus",
+        "planets": 10
+      },
+      {
+        "abbr": "Del",
+        "constellation": "Delphinus",
+        "planets": 10
+      },
+      {
+        "abbr": "Pyx",
+        "constellation": "Pyxis",
+        "planets": 10
+      },
+      {
+        "abbr": "Equ",
+        "constellation": "Equuleus",
+        "planets": 8
+      },
+      {
+        "abbr": "Nor",
+        "constellation": "Norma",
+        "planets": 8
+      },
+      {
+        "abbr": "Sge",
+        "constellation": "Sagitta",
+        "planets": 8
+      },
+      {
+        "abbr": "Cir",
+        "constellation": "Circinus",
+        "planets": 5
+      },
+      {
+        "abbr": "CrA",
+        "constellation": "Corona Austrina",
+        "planets": 5
+      },
+      {
+        "abbr": "Sct",
+        "constellation": "Scutum",
+        "planets": 5
+      },
+      {
+        "abbr": "Tri",
+        "constellation": "Triangulum",
+        "planets": 4
+      },
+      {
+        "abbr": "TrA",
+        "constellation": "Triangulum Australe",
+        "planets": 4
+      },
+      {
+        "abbr": "Cru",
+        "constellation": "Crux",
+        "planets": 3
+      }
+    ],
+    "by_method_and_decade": [
+      {
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 27
+      },
+      {
+        "decade": 1990,
+        "method": "Pulsar Timing",
+        "planets": 3
+      },
+      {
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 285
+      },
+      {
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 60
+      },
+      {
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 17
+      },
+      {
+        "decade": 2000,
+        "method": "Microlensing",
+        "planets": 10
+      },
+      {
+        "decade": 2000,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "decade": 2000,
+        "method": "Pulsar Timing",
+        "planets": 1
+      },
+      {
+        "decade": 2000,
+        "method": "Pulsation Timing Variations",
+        "planets": 1
+      },
+      {
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3078
+      },
+      {
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 462
+      },
+      {
+        "decade": 2010,
+        "method": "Microlensing",
+        "planets": 80
+      },
+      {
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 36
+      },
+      {
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 13
+      },
+      {
+        "decade": 2010,
+        "method": "Transit Timing Variations",
+        "planets": 10
+      },
+      {
+        "decade": 2010,
+        "method": "Orbital Brightness Modulation",
+        "planets": 6
+      },
+      {
+        "decade": 2010,
+        "method": "Pulsar Timing",
+        "planets": 3
+      },
+      {
+        "decade": 2010,
+        "method": "Astrometry",
+        "planets": 1
+      },
+      {
+        "decade": 2010,
+        "method": "Disk Kinematics",
+        "planets": 1
+      },
+      {
+        "decade": 2010,
+        "method": "Pulsation Timing Variations",
+        "planets": 1
+      },
+      {
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 1662
+      },
+      {
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 430
+      },
+      {
+        "decade": 2020,
+        "method": "Microlensing",
+        "planets": 206
+      },
+      {
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 46
+      },
+      {
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 19
+      },
+      {
+        "decade": 2020,
+        "method": "Astrometry",
+        "planets": 7
+      },
+      {
+        "decade": 2020,
+        "method": "Eclipse Timing Variations",
+        "planets": 3
+      },
+      {
+        "decade": 2020,
+        "method": "Orbital Brightness Modulation",
+        "planets": 3
+      },
+      {
+        "decade": 2020,
+        "method": "Pulsar Timing",
+        "planets": 1
+      }
+    ],
+    "by_constellation_method_decade": [
+      {
+        "abbr": "And",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "And",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "And",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "And",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "And",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 8
+      },
+      {
+        "abbr": "And",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "And",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "And",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Ant",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Ant",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Ant",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Ant",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Ant",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Aps",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Aps",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Aps",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Aql",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 6
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Aql",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 5
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 2
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 75
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Aqr",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 31
+      },
+      {
+        "abbr": "Ara",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Ara",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Ara",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Ara",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Ari",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Ari",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Ari",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Ari",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Ari",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Ari",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Aur",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Aur",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Aur",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Aur",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Aur",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Aur",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Aur",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 8
+      },
+      {
+        "abbr": "Boo",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Boo",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Boo",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Boo",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Boo",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Boo",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Boo",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Boo",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 18
+      },
+      {
+        "abbr": "CMa",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "CMa",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "CMa",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 8
+      },
+      {
+        "abbr": "CMa",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "CMa",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "CMi",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "CMi",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "CMi",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "CMi",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 5
+      },
+      {
+        "abbr": "CVn",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "CVn",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "CVn",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "CVn",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "CVn",
+        "decade": 2020,
+        "method": "Astrometry",
+        "planets": 1
+      },
+      {
+        "abbr": "CVn",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "CVn",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 9
+      },
+      {
+        "abbr": "Cae",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Cae",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cae",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Cae",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cae",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 9
+      },
+      {
+        "abbr": "Cam",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Cam",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Cam",
+        "decade": 2010,
+        "method": "Pulsar Timing",
+        "planets": 1
+      },
+      {
+        "abbr": "Cam",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Cam",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Cam",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Cam",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 24
+      },
+      {
+        "abbr": "Cap",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cap",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Cap",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 10
+      },
+      {
+        "abbr": "Cap",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Cap",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Cap",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Car",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Car",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 6
+      },
+      {
+        "abbr": "Car",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Car",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Car",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Car",
+        "decade": 2020,
+        "method": "Microlensing",
+        "planets": 2
+      },
+      {
+        "abbr": "Car",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Car",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 23
+      },
+      {
+        "abbr": "Car",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 3
+      },
+      {
+        "abbr": "Cas",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Cas",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 19
+      },
+      {
+        "abbr": "Cas",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Cas",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Cas",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 21
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 8
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 3
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 19
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Cen",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 36
+      },
+      {
+        "abbr": "Cep",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cep",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Cep",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 8
+      },
+      {
+        "abbr": "Cep",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 31
+      },
+      {
+        "abbr": "Cep",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Cet",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 13
+      },
+      {
+        "abbr": "Cet",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Cet",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 22
+      },
+      {
+        "abbr": "Cet",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 25
+      },
+      {
+        "abbr": "Cet",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 12
+      },
+      {
+        "abbr": "Cet",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 27
+      },
+      {
+        "abbr": "Cha",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Cha",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cha",
+        "decade": 2010,
+        "method": "Disk Kinematics",
+        "planets": 1
+      },
+      {
+        "abbr": "Cha",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 3
+      },
+      {
+        "abbr": "Cha",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cha",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Cir",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cir",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Cir",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Cnc",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cnc",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Cnc",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 13
+      },
+      {
+        "abbr": "Cnc",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 64
+      },
+      {
+        "abbr": "Cnc",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 8
+      },
+      {
+        "abbr": "Cnc",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 53
+      },
+      {
+        "abbr": "Col",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Col",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 7
+      },
+      {
+        "abbr": "Col",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Col",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 7
+      },
+      {
+        "abbr": "Com",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Com",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Com",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Com",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Com",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Com",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 10
+      },
+      {
+        "abbr": "CrA",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "CrA",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "CrB",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "CrB",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "CrB",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "CrB",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "CrB",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "CrB",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "CrB",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Crt",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Crt",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Crt",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 8
+      },
+      {
+        "abbr": "Crt",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Crt",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Cru",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Cru",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Cru",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Crv",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Crv",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Crv",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Crv",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Crv",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2010,
+        "method": "Orbital Brightness Modulation",
+        "planets": 3
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2010,
+        "method": "Pulsation Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1334
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2010,
+        "method": "Transit Timing Variations",
+        "planets": 6
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2020,
+        "method": "Astrometry",
+        "planets": 2
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2020,
+        "method": "Eclipse Timing Variations",
+        "planets": 2
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2020,
+        "method": "Orbital Brightness Modulation",
+        "planets": 3
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 302
+      },
+      {
+        "abbr": "Cyg",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 2
+      },
+      {
+        "abbr": "Del",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Del",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Del",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Del",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Del",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 5
+      },
+      {
+        "abbr": "Dor",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Dor",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Dor",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Dor",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Dor",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 12
+      },
+      {
+        "abbr": "Dor",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 16
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 132
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2020,
+        "method": "Astrometry",
+        "planets": 1
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 29
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 135
+      },
+      {
+        "abbr": "Dra",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Equ",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Equ",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Equ",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Eri",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Eri",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Eri",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Eri",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 18
+      },
+      {
+        "abbr": "Eri",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 17
+      },
+      {
+        "abbr": "Eri",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Eri",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 12
+      },
+      {
+        "abbr": "Eri",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 35
+      },
+      {
+        "abbr": "For",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "For",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 2
+      },
+      {
+        "abbr": "For",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "For",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 6
+      },
+      {
+        "abbr": "For",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "For",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Gem",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Gem",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Gem",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 7
+      },
+      {
+        "abbr": "Gem",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Gem",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 18
+      },
+      {
+        "abbr": "Gru",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Gru",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Gru",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Gru",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Gru",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 6
+      },
+      {
+        "abbr": "Her",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Her",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Her",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 8
+      },
+      {
+        "abbr": "Her",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Her",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 15
+      },
+      {
+        "abbr": "Her",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 30
+      },
+      {
+        "abbr": "Hor",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Hor",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Hor",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Hor",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Hor",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 9
+      },
+      {
+        "abbr": "Hya",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 8
+      },
+      {
+        "abbr": "Hya",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Hya",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 19
+      },
+      {
+        "abbr": "Hya",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Hya",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 16
+      },
+      {
+        "abbr": "Hya",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 33
+      },
+      {
+        "abbr": "Hyi",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Hyi",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Hyi",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Hyi",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Hyi",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 20
+      },
+      {
+        "abbr": "Hyi",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Ind",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Ind",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Ind",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 5
+      },
+      {
+        "abbr": "Ind",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Ind",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "LMi",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "LMi",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "LMi",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "LMi",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "LMi",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "LMi",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 13
+      },
+      {
+        "abbr": "Lac",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Lac",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Lac",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Lac",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Lac",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Lac",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Leo",
+        "decade": 2000,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Leo",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 12
+      },
+      {
+        "abbr": "Leo",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 12
+      },
+      {
+        "abbr": "Leo",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 36
+      },
+      {
+        "abbr": "Leo",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Leo",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Leo",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 30
+      },
+      {
+        "abbr": "Lep",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Lep",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Lep",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Lep",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Lep",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Lep",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 15
+      },
+      {
+        "abbr": "Lib",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Lib",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Lib",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Lib",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 10
+      },
+      {
+        "abbr": "Lib",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Lib",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 18
+      },
+      {
+        "abbr": "Lup",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Lup",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Lup",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Lup",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Lup",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Lup",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Lup",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Lyn",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Lyn",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Lyn",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Lyn",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Lyn",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Lyn",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 8
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2010,
+        "method": "Orbital Brightness Modulation",
+        "planets": 3
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 858
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2010,
+        "method": "Transit Timing Variations",
+        "planets": 4
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2020,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 164
+      },
+      {
+        "abbr": "Lyr",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 6
+      },
+      {
+        "abbr": "Men",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Men",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Men",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Men",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Men",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 13
+      },
+      {
+        "abbr": "Mic",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Mic",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Mic",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Mic",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Mic",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 6
+      },
+      {
+        "abbr": "Mic",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Mon",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Mon",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Mon",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Mon",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 10
+      },
+      {
+        "abbr": "Mon",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Mon",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Mon",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 10
+      },
+      {
+        "abbr": "Mus",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Mus",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Mus",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Mus",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Mus",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Mus",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Mus",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Nor",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Nor",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Nor",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Oct",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Oct",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Oct",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Oct",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Oct",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 12
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2010,
+        "method": "Microlensing",
+        "planets": 5
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 11
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 3
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2020,
+        "method": "Microlensing",
+        "planets": 33
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2020,
+        "method": "Pulsar Timing",
+        "planets": 1
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 11
+      },
+      {
+        "abbr": "Oph",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Ori",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Ori",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 14
+      },
+      {
+        "abbr": "Ori",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Ori",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Ori",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Ori",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 14
+      },
+      {
+        "abbr": "Pav",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Pav",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Pav",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Pav",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Pav",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Peg",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 4
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2000,
+        "method": "Pulsation Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 5
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2020,
+        "method": "Astrometry",
+        "planets": 1
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2020,
+        "method": "Microlensing",
+        "planets": 1
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Peg",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 17
+      },
+      {
+        "abbr": "Per",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Per",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Per",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Per",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Per",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 15
+      },
+      {
+        "abbr": "Phe",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Phe",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Phe",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Phe",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Phe",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 5
+      },
+      {
+        "abbr": "Phe",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Phe",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 9
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 19
+      },
+      {
+        "abbr": "Pic",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "PsA",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "PsA",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "PsA",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "PsA",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "PsA",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Psc",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Psc",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Psc",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Psc",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Psc",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 43
+      },
+      {
+        "abbr": "Psc",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Psc",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Psc",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 25
+      },
+      {
+        "abbr": "Pup",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 9
+      },
+      {
+        "abbr": "Pup",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Pup",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 9
+      },
+      {
+        "abbr": "Pup",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Pup",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Pup",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 14
+      },
+      {
+        "abbr": "Pyx",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Pyx",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Pyx",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Pyx",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Pyx",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Ret",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Ret",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Ret",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 6
+      },
+      {
+        "abbr": "Ret",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Ret",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 9
+      },
+      {
+        "abbr": "Scl",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Scl",
+        "decade": 2010,
+        "method": "Pulsar Timing",
+        "planets": 1
+      },
+      {
+        "abbr": "Scl",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Scl",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Scl",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Scl",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Scl",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 16
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 3
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2000,
+        "method": "Microlensing",
+        "planets": 6
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2000,
+        "method": "Pulsar Timing",
+        "planets": 1
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 6
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2010,
+        "method": "Microlensing",
+        "planets": 17
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 4
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2020,
+        "method": "Microlensing",
+        "planets": 45
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Sco",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Sct",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Sct",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Sct",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Ser",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 2
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2010,
+        "method": "Pulsar Timing",
+        "planets": 1
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 7
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 7
+      },
+      {
+        "abbr": "Ser",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Sex",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Sex",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Sex",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 10
+      },
+      {
+        "abbr": "Sex",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Sex",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 18
+      },
+      {
+        "abbr": "Sge",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Sge",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Sge",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Sge",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 3
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2000,
+        "method": "Microlensing",
+        "planets": 4
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2010,
+        "method": "Microlensing",
+        "planets": 57
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 20
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2020,
+        "method": "Microlensing",
+        "planets": 125
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Sgr",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 4
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2010,
+        "method": "Microlensing",
+        "planets": 1
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 51
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 6
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Tau",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 22
+      },
+      {
+        "abbr": "Tel",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 5
+      },
+      {
+        "abbr": "Tel",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Tel",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Tel",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 11
+      },
+      {
+        "abbr": "TrA",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "TrA",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "Tri",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Tri",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Tuc",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Tuc",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "Tuc",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 9
+      },
+      {
+        "abbr": "Tuc",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Tuc",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 6
+      },
+      {
+        "abbr": "UMa",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 8
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 2
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 16
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 8
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2020,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 13
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 39
+      },
+      {
+        "abbr": "UMa",
+        "decade": 2020,
+        "method": "Transit Timing Variations",
+        "planets": 1
+      },
+      {
+        "abbr": "UMi",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "UMi",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 5
+      },
+      {
+        "abbr": "UMi",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "UMi",
+        "decade": 2020,
+        "method": "Astrometry",
+        "planets": 1
+      },
+      {
+        "abbr": "UMi",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "UMi",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 20
+      },
+      {
+        "abbr": "Vel",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 3
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2010,
+        "method": "Astrometry",
+        "planets": 1
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 10
+      },
+      {
+        "abbr": "Vel",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 19
+      },
+      {
+        "abbr": "Vir",
+        "decade": 1990,
+        "method": "Pulsar Timing",
+        "planets": 3
+      },
+      {
+        "abbr": "Vir",
+        "decade": 1990,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 12
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2000,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2010,
+        "method": "Eclipse Timing Variations",
+        "planets": 2
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 2
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 14
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 123
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2020,
+        "method": "Astrometry",
+        "planets": 1
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 18
+      },
+      {
+        "abbr": "Vir",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 23
+      },
+      {
+        "abbr": "Vol",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 1
+      },
+      {
+        "abbr": "Vol",
+        "decade": 2010,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Vol",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Vol",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 4
+      },
+      {
+        "abbr": "Vol",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 6
+      },
+      {
+        "abbr": "Vol",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 22
+      },
+      {
+        "abbr": "Vul",
+        "decade": 2000,
+        "method": "Imaging",
+        "planets": 1
+      },
+      {
+        "abbr": "Vul",
+        "decade": 2000,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Vul",
+        "decade": 2010,
+        "method": "Radial Velocity",
+        "planets": 2
+      },
+      {
+        "abbr": "Vul",
+        "decade": 2010,
+        "method": "Transit",
+        "planets": 1
+      },
+      {
+        "abbr": "Vul",
+        "decade": 2020,
+        "method": "Radial Velocity",
+        "planets": 4
+      },
+      {
+        "abbr": "Vul",
+        "decade": 2020,
+        "method": "Transit",
+        "planets": 5
+      }
+    ]
+  }
+}

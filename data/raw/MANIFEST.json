@@ -1,0 +1,32 @@
+{
+  "d3celestial_constellations.lines.json": {
+    "url": "https://cdn.jsdelivr.net/gh/ofrohn/d3-celestial@v0.7.32/data/constellations.lines.json",
+    "retrieved_utc": "2026-11-25T19:42:54+00:00",
+    "sha256": "294f66bef5d5cf50b1e17f16d2efa1d97a15131612c68dd935adef6e7373e13c",
+    "bytes": 27136
+  },
+  "d3celestial_constellations.json": {
+    "url": "https://cdn.jsdelivr.net/gh/ofrohn/d3-celestial@v0.7.32/data/constellations.json",
+    "retrieved_utc": "2026-11-25T19:42:54+00:00",
+    "sha256": "11e14f1ee19b71bff5ca8af3f6e6a20596c4609dd86d43c9a796054fce88030c",
+    "bytes": 50580
+  },
+  "d3celestial_LICENSE": {
+    "url": "https://cdn.jsdelivr.net/gh/ofrohn/d3-celestial@v0.7.32/LICENSE",
+    "retrieved_utc": "2026-11-25T19:42:54+00:00",
+    "sha256": "a8c79239001ad4bea243d1796b85084e1fc39309c5c5a663930a1b46320254c6",
+    "bytes": 1480
+  },
+  "hyg_v44.csv.gz": {
+    "url": "https://codeberg.org/astronexus/hyg/media/branch/main/data/hyg/CURRENT/hyg_v44.csv.gz",
+    "retrieved_utc": "2026-11-25T19:42:52+00:00",
+    "sha256": "00b349893b9a53106dd488d8371e8d2fa586043e500bb3cdb8bff3931682197d",
+    "bytes": 13636362
+  },
+  "nasa_pscomppars.csv": {
+    "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name%2Chostname%2Chd_name%2Chip_name%2Cgaia_dr3_id%2Csy_snum%2Csy_pnum%2Cra%2Cdec%2Csy_dist%2Csy_vmag%2Cst_spectype%2Cst_teff%2Cst_rad%2Cst_mass%2Cpl_rade%2Cpl_bmasse%2Cpl_orbper%2Cpl_orbsmax%2Cpl_eqt%2Cpl_insol%2Cdiscoverymethod%2Cdisc_facility%2Cdisc_locale%2Cdisc_year+from+pscomppars&format=csv",
+    "retrieved_utc": "2026-11-25T19:42:53+00:00",
+    "sha256": "afb5ce1d2ae64d27e92722ce7247c3c1bfab22ab4e6d2cef8995d77ea26a1446",
+    "bytes": 1603521
+  }
+}
